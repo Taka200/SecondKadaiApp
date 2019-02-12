@@ -87,7 +87,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="戻る"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="lDM-hm-a4Q"/>
+                                    <segue destination="I5N-Hr-K2K" kind="unwind" unwindAction="unwind:" id="QkV-mR-P7x"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="25b-x1-cOB">
@@ -116,6 +116,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vCA-ht-cS6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="I5N-Hr-K2K" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="933.60000000000002" y="133.5832083958021"/>
         </scene>
